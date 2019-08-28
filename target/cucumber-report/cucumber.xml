@@ -1,0 +1,113 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 84,
+        "name": "Verify user can Place an Order  \u00273 Person Dome Tent\u0027 in quantity of 1.",
+        "description": "",
+        "id": "user-verify-text-gmo-online-on-home-page;verify-user-can-place-an-order--\u00273-person-dome-tent\u0027-in-quantity-of-1.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9353363800,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "User is on home page",
+            "match": {
+              "location": "stepLib.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 793129100,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "User click on Enter GMO Online button",
+            "match": {
+              "location": "stepLib.user_click_on_Enter_GMO_Online_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 91579700,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "User enters quantity as \"1\" for 3person dome tent",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 25
+                },
+                {
+                  "val": "3",
+                  "offset": 32
+                }
+              ],
+              "location": "stepLib.user_enters_quantity_as_for_person_dome_tent(String,int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 331255700,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "User click on Place an order button",
+            "match": {
+              "location": "stepLib.user_click_on_Place_an_order_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 348880600,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "User click on Proceed with order button",
+            "match": {
+              "location": "stepLib.user_click_on_Proceed_with_order_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 672596800,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "User logout from application",
+            "match": {
+              "location": "stepLib.user_logout()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 74,
+            "name": "@test1"
+          }
+        ]
+      }
+    ],
+    "name": "User verify text GMO Online on home page",
+    "description": "",
+    "id": "user-verify-text-gmo-online-on-home-page",
+    "keyword": "Feature",
+    "uri": "./src/test/java/feature/GMO.feature"
+  }
+]

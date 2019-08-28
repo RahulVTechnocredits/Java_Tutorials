@@ -1,0 +1,43 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "validate home page",
+        "description": "",
+        "id": "user-verify-text-gmo-online-on-home-page;validate-home-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User is on home page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User verify \"GMO Online\" on home page",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User verify text GMO Online on home page",
+    "description": "",
+    "id": "user-verify-text-gmo-online-on-home-page",
+    "keyword": "Feature",
+    "uri": "./src/test/java/feature/Login.feature"
+  }
+]
